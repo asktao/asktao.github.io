@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+
+    
+
+    
+    <meta name="description" content="最近在项目中遇到前后端计算数值不一样的情况，发现是由于 Python3 数学运算处理方式和 PHP BC Math 不一样
+PHP 的 round 函数
+round ( float $val , int $precision = 0 , int $mode = PHP_ROUND_HALF_UP ) : float    Constants Description     PHP_ROUND_HALF_UP Rounds num away from zero when it is half way there, making 1.5 into 2 and -1.5 into -2.   PHP_ROUND_HALF_DOWN Rounds num towards zero when it is half way there,making 1.">
+    <meta name="keywords" content="">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Python3 中的四舍五入"/>
+<meta name="twitter:description" content="最近在项目中遇到前后端计算数值不一样的情况，发现是由于 Python3 数学运算处理方式和 PHP BC Math 不一样
+PHP 的 round 函数
+round ( float $val , int $precision = 0 , int $mode = PHP_ROUND_HALF_UP ) : float    Constants Description     PHP_ROUND_HALF_UP Rounds num away from zero when it is half way there, making 1.5 into 2 and -1.5 into -2.   PHP_ROUND_HALF_DOWN Rounds num towards zero when it is half way there,making 1."/>
+
+    <meta property="og:title" content="Python3 中的四舍五入" />
+<meta property="og:description" content="最近在项目中遇到前后端计算数值不一样的情况，发现是由于 Python3 数学运算处理方式和 PHP BC Math 不一样
+PHP 的 round 函数
+round ( float $val , int $precision = 0 , int $mode = PHP_ROUND_HALF_UP ) : float    Constants Description     PHP_ROUND_HALF_UP Rounds num away from zero when it is half way there, making 1.5 into 2 and -1.5 into -2.   PHP_ROUND_HALF_DOWN Rounds num towards zero when it is half way there,making 1." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://asktao.me/posts/python3-%E4%B8%AD%E7%9A%84%E5%9B%9B%E8%88%8D%E4%BA%94%E5%85%A5/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-10-09T10:41:06+08:00" />
+<meta property="article:modified_time" content="2021-10-09T10:41:06+08:00" />
+
+
+
+    <title>
+  Python3 中的四舍五入 · asktao
+</title>
+
+    
+      <link rel="canonical" href="http://asktao.me/posts/python3-%E4%B8%AD%E7%9A%84%E5%9B%9B%E8%88%8D%E4%BA%94%E5%85%A5/">
+    
+
+    <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.d9fddbffe6f27e69985dc5fe0471cdb0e57fbf4775714bc3d847accb08f4a1f6.css" integrity="sha256-2f3b/&#43;byfmmYXcX&#43;BHHNsOV/v0d1cUvD2Eesywj0ofY=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    <meta name="generator" content="Hugo 0.88.1" />
+  </head>
+
+  
+  
+  <body class="preload-transitions colorscheme-light">
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      asktao
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">Blog</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://asktao.me/posts/python3-%E4%B8%AD%E7%9A%84%E5%9B%9B%E8%88%8D%E4%BA%94%E5%85%A5/">
+              Python3 中的四舍五入
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime="2021-10-09T10:41:06&#43;08:00">
+                October 9, 2021
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              2-minute read
+            </span>
+          </div>
+          
+          
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/programming/">programming</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/python/">Python</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <p>最近在项目中遇到前后端计算数值不一样的情况，发现是由于 Python3 数学运算处理方式和 <a href="https://asktao.me/how-to-avoid-floating-point-math-error-in-php-and-python/">PHP BC Math</a> 不一样</p>
+<p>PHP 的 round 函数</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">round ( float $val , int $precision = 0 , int $mode = PHP_ROUND_HALF_UP ) : float
+</code></pre></div><table>
+<thead>
+<tr>
+<th>Constants</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PHP_ROUND_HALF_UP</td>
+<td>Rounds <code>num</code> away from zero when it is half way there, making 1.5 into 2 and -1.5 into -2.</td>
+</tr>
+<tr>
+<td>PHP_ROUND_HALF_DOWN</td>
+<td>Rounds <code>num</code> towards zero when it is half way there,making 1.5 into 1 and -1.5 into -1.</td>
+</tr>
+<tr>
+<td>PHP_ROUND_HALF_EVEN</td>
+<td>Rounds <code>num</code> towards the nearest even value when it is half way there, making both 1.5 and 2.5 into 2.</td>
+</tr>
+<tr>
+<td>PHP_ROUND_HALF_ODD</td>
+<td>Rounds <code>num</code> towards the nearest odd value when it is half way there, making 1.5 into 1 and 2.5 into 3.</td>
+</tr>
+</tbody>
+</table>
+<p>其中 PHP_ROUND_HALF_UP 是默认的</p>
+<p>Python3 的 round 函数没有处理<a href="https://asktao.me/how-to-avoid-floating-point-math-error-in-php-and-python/">浮点数运算</a>的问题</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">round(number[, ndigits])
+</code></pre></div><p>The behavior of [<code>round()</code>] for floats can be surprising</p>
+<p><a href="https://docs.python.org/3/library/functions.html?highlight=round#round">https://docs.python.org/3/library/functions.html?highlight=round#round</a></p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">round(2.675, 2) gives 2.67
+</code></pre></div><p>而 decimal 可以四舍五入等运算方式，不过需要指定参数 rounding</p>
+<p>可选值为</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">decimal.ROUND_CEILING
+Round towards Infinity.
+ 
+decimal.ROUND_DOWN
+Round towards zero.
+ 
+decimal.ROUND_FLOOR
+Round towards -Infinity.
+ 
+decimal.ROUND_HALF_DOWN
+Round to nearest <span style="font-weight:bold">with</span> ties going towards zero.
+ 
+decimal.ROUND_HALF_EVEN
+Round to nearest <span style="font-weight:bold">with</span> ties going to nearest even integer.
+ 
+decimal.ROUND_HALF_UP
+Round to nearest <span style="font-weight:bold">with</span> ties going away <span style="font-weight:bold">from</span> <span style="font-weight:bold">zero.</span>
+ 
+decimal.ROUND_UP
+Round away <span style="font-weight:bold">from</span> <span style="font-weight:bold">zero.</span>
+ 
+decimal.ROUND_05UP
+Round away <span style="font-weight:bold">from</span> <span style="font-weight:bold">zero</span> <span style="font-weight:bold">if</span> last digit after rounding towards zero would have been 0 <span style="font-weight:bold">or</span> 5; otherwise round towards zero.
+</code></pre></div><p>用法如下</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">&gt;&gt;&gt; from decimal import Decimal
+&gt;&gt;&gt; Decimal(&#39;2.145&#39;).quantize(Decimal(&#34;0.00&#34;), rounding = &#34;ROUND_HALF_UP&#34;)
+Decimal(&#39;2.15&#39;)
+</code></pre></div><p>也可以用 context</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">&gt;&gt;&gt; import decimal
+&gt;&gt;&gt; decimal.getcontext().rounding = &#34;ROUND_HALF_UP&#34;
+&gt;&gt;&gt; decimal.Decimal(&#39;2.145&#39;).quantize(decimal.Decimal(&#34;0.00&#34;))
+Decimal(&#39;2.15&#39;)
+</code></pre></div><p>即可实现一般财务计算中四舍五入的方式</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">&gt;&gt;&gt; decimal.Decimal(&#39;2.675&#39;).quantize(decimal.Decimal(&#34;0.00&#34;))
+Decimal(&#39;2.68&#39;)
+</code></pre></div>
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    ©
+    
+    2022
+    
+    ·
+    
+    Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+      
+      <script src="/js/coder.min.39a51230dce2ac866c049b52573e38bf60666af4bc63c1bdf203b9b2d95b1cd6.js" integrity="sha256-OaUSMNzirIZsBJtSVz44v2BmavS8Y8G98gO5stlbHNY="></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>
