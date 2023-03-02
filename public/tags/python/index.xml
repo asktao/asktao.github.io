@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on asktao</title>
+    <link>http://asktao.me/tags/python/</link>
+    <description>Recent content in Python on asktao</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 09 Oct 2021 10:44:00 +0800</lastBuildDate><atom:link href="http://asktao.me/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python List 的两种排序</title>
+      <link>http://asktao.me/posts/python-list-%E7%9A%84%E4%B8%A4%E7%A7%8D%E6%8E%92%E5%BA%8F/</link>
+      <pubDate>Sat, 09 Oct 2021 10:44:00 +0800</pubDate>
+      
+      <guid>http://asktao.me/posts/python-list-%E7%9A%84%E4%B8%A4%E7%A7%8D%E6%8E%92%E5%BA%8F/</guid>
+      <description># import a groupby() method # from itertools module from itertools import groupby # dictionary INFO = [ {&amp;#39;employee&amp;#39;: &amp;#39;XYZ_1&amp;#39;, &amp;#39;company&amp;#39;: &amp;#39;ABC_1&amp;#39;}, {&amp;#39;employee&amp;#39;: &amp;#39;XYZ_2&amp;#39;, &amp;#39;company&amp;#39;: &amp;#39;ABC_2&amp;#39;}, {&amp;#39;employee&amp;#39;: &amp;#39;XYZ_3&amp;#39;, &amp;#39;company&amp;#39;: &amp;#39;ABC_3&amp;#39;}, {&amp;#39;employee&amp;#39;: &amp;#39;XYZ_4&amp;#39;, &amp;#39;company&amp;#39;: &amp;#39;ABC_3&amp;#39;}, {&amp;#39;employee&amp;#39;: &amp;#39;XYZ_5&amp;#39;, &amp;#39;company&amp;#39;: &amp;#39;ABC_2&amp;#39;}, {&amp;#39;employee&amp;#39;: &amp;#39;XYZ_6&amp;#39;, &amp;#39;company&amp;#39;: &amp;#39;ABC_3&amp;#39;}, {&amp;#39;employee&amp;#39;: &amp;#39;XYZ_7&amp;#39;, &amp;#39;company&amp;#39;: &amp;#39;ABC_1&amp;#39;}, {&amp;#39;employee&amp;#39;: &amp;#39;XYZ_8&amp;#39;, &amp;#39;company&amp;#39;: &amp;#39;ABC_2&amp;#39;}, {&amp;#39;employee&amp;#39;: &amp;#39;XYZ_9&amp;#39;, &amp;#39;company&amp;#39;: &amp;#39;ABC_1&amp;#39;} ] # define a fuction for key def key_func(k): return k[&amp;#39;company&amp;#39;] # sort INFO data by &amp;#39;company&amp;#39; key.</description>
+    </item>
+    
+    <item>
+      <title>Python3 中的四舍五入</title>
+      <link>http://asktao.me/posts/python3-%E4%B8%AD%E7%9A%84%E5%9B%9B%E8%88%8D%E4%BA%94%E5%85%A5/</link>
+      <pubDate>Sat, 09 Oct 2021 10:41:06 +0800</pubDate>
+      
+      <guid>http://asktao.me/posts/python3-%E4%B8%AD%E7%9A%84%E5%9B%9B%E8%88%8D%E4%BA%94%E5%85%A5/</guid>
+      <description>最近在项目中遇到前后端计算数值不一样的情况，发现是由于 Python3 数学运算处理方式和 PHP BC Math 不一样
+PHP 的 round 函数
+round ( float $val , int $precision = 0 , int $mode = PHP_ROUND_HALF_UP ) : float    Constants Description     PHP_ROUND_HALF_UP Rounds num away from zero when it is half way there, making 1.5 into 2 and -1.5 into -2.   PHP_ROUND_HALF_DOWN Rounds num towards zero when it is half way there,making 1.</description>
+    </item>
+    
+    <item>
+      <title>How to Avoid Floating Point Math Error in PHP and Python</title>
+      <link>http://asktao.me/posts/how-to-avoid-floating-point-math-error-in-php-and-python/</link>
+      <pubDate>Thu, 07 Oct 2021 15:28:09 +0800</pubDate>
+      
+      <guid>http://asktao.me/posts/how-to-avoid-floating-point-math-error-in-php-and-python/</guid>
+      <description>php -r &amp;#34;var_dump(intval(0.58 * 100));” int(57) python3 &amp;gt;&amp;gt;&amp;gt;print(0.58*100)57.99999999999999 other languages http://0.30000000000000004.com
+how did this happen http://www.laruence.com/2013/03/26/2884.html
+Mathematical extensions in php and decimal module in python to avoid this
+php -r &amp;#34;var_dump(intval(bcmul(&amp;#39;0.58&amp;#39;, &amp;#39;100&amp;#39;)));&amp;#34; int(58) &amp;gt;&amp;gt;&amp;gt; from decimal import Decimal &amp;gt;&amp;gt;&amp;gt; from decimal import getcontext &amp;gt;&amp;gt;&amp;gt; print(Decimal(&amp;#39;0.58&amp;#39;) * Decimal(&amp;#39;100&amp;#39;)) 58.00 </description>
+    </item>
+    
+  </channel>
+</rss>
