@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Go on asktao</title>
-    <link>http://asktao.me/tags/go/</link>
+    <link>http://asktao.github.io/tags/go/</link>
     <description>Recent content in Go on asktao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 09 Oct 2021 10:35:50 +0800</lastBuildDate><atom:link href="http://asktao.me/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Oct 2021 10:35:50 +0800</lastBuildDate><atom:link href="http://asktao.github.io/tags/go/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go vs PHP Syntax Comparison</title>
-      <link>http://asktao.me/posts/go-vs-php-syntax-comparison/</link>
+      <link>http://asktao.github.io/posts/go-vs-php-syntax-comparison/</link>
       <pubDate>Sat, 09 Oct 2021 10:35:50 +0800</pubDate>
       
-      <guid>http://asktao.me/posts/go-vs-php-syntax-comparison/</guid>
+      <guid>http://asktao.github.io/posts/go-vs-php-syntax-comparison/</guid>
       <description>Data types PHP types:
 bool string int //Integer float array object NULL resource Go types:
 string bool int int8 int16 int32 int64 uint uint8 uint16 uint32 uint64 uintptr byte //uint8 rune //int32 float32 float64 complex64 complex128 array slices map struct Variables Variable declarations

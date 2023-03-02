@@ -1,4 +1,4 @@
-baseurl = "http://asktao.me"
+baseurl = "http://asktao.github.io"
 title = "asktao"
 theme = "hugo-coder"
 languagecode = "en"
@@ -63,7 +63,7 @@ publishDir = "docs"
   name = "Blog"
   weight = 1
   url  = "posts/"
-#[[menu.main]]
-#  name = "About"
-#  weight = 2
-#  url = "https://asktao.me/About-me-7326ca879d364d58abea991d59c8ff13"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "https://asktao.me/About-me-7326ca879d364d58abea991d59c8ff13"

@@ -2,98 +2,98 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on asktao</title>
-    <link>http://asktao.me/tags/</link>
+    <link>http://asktao.github.io/tags/</link>
     <description>Recent content in Tags on asktao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 09 Oct 2021 10:46:29 +0800</lastBuildDate><atom:link href="http://asktao.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Oct 2021 10:46:29 +0800</lastBuildDate><atom:link href="http://asktao.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>calligraphy</title>
-      <link>http://asktao.me/tags/calligraphy/</link>
+      <link>http://asktao.github.io/tags/calligraphy/</link>
       <pubDate>Sat, 09 Oct 2021 10:46:29 +0800</pubDate>
       
-      <guid>http://asktao.me/tags/calligraphy/</guid>
+      <guid>http://asktao.github.io/tags/calligraphy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>书法</title>
-      <link>http://asktao.me/tags/%E4%B9%A6%E6%B3%95/</link>
+      <link>http://asktao.github.io/tags/%E4%B9%A6%E6%B3%95/</link>
       <pubDate>Sat, 09 Oct 2021 10:46:29 +0800</pubDate>
       
-      <guid>http://asktao.me/tags/%E4%B9%A6%E6%B3%95/</guid>
+      <guid>http://asktao.github.io/tags/%E4%B9%A6%E6%B3%95/</guid>
       <description></description>
     </item>
     
     <item>
       <title>programming</title>
-      <link>http://asktao.me/tags/programming/</link>
+      <link>http://asktao.github.io/tags/programming/</link>
       <pubDate>Sat, 09 Oct 2021 10:44:00 +0800</pubDate>
       
-      <guid>http://asktao.me/tags/programming/</guid>
+      <guid>http://asktao.github.io/tags/programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>http://asktao.me/tags/python/</link>
+      <link>http://asktao.github.io/tags/python/</link>
       <pubDate>Sat, 09 Oct 2021 10:44:00 +0800</pubDate>
       
-      <guid>http://asktao.me/tags/python/</guid>
+      <guid>http://asktao.github.io/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>thewolrd</title>
-      <link>http://asktao.me/tags/thewolrd/</link>
+      <link>http://asktao.github.io/tags/thewolrd/</link>
       <pubDate>Sat, 09 Oct 2021 10:42:47 +0800</pubDate>
       
-      <guid>http://asktao.me/tags/thewolrd/</guid>
+      <guid>http://asktao.github.io/tags/thewolrd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>math</title>
-      <link>http://asktao.me/tags/math/</link>
+      <link>http://asktao.github.io/tags/math/</link>
       <pubDate>Sat, 09 Oct 2021 10:40:16 +0800</pubDate>
       
-      <guid>http://asktao.me/tags/math/</guid>
+      <guid>http://asktao.github.io/tags/math/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Go</title>
-      <link>http://asktao.me/tags/go/</link>
+      <link>http://asktao.github.io/tags/go/</link>
       <pubDate>Sat, 09 Oct 2021 10:35:50 +0800</pubDate>
       
-      <guid>http://asktao.me/tags/go/</guid>
+      <guid>http://asktao.github.io/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PHP</title>
-      <link>http://asktao.me/tags/php/</link>
+      <link>http://asktao.github.io/tags/php/</link>
       <pubDate>Sat, 09 Oct 2021 10:35:50 +0800</pubDate>
       
-      <guid>http://asktao.me/tags/php/</guid>
+      <guid>http://asktao.github.io/tags/php/</guid>
       <description></description>
     </item>
     
     <item>
       <title>macOS</title>
-      <link>http://asktao.me/tags/macos/</link>
+      <link>http://asktao.github.io/tags/macos/</link>
       <pubDate>Sat, 09 Oct 2021 10:35:22 +0800</pubDate>
       
-      <guid>http://asktao.me/tags/macos/</guid>
+      <guid>http://asktao.github.io/tags/macos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MySQL</title>
-      <link>http://asktao.me/tags/mysql/</link>
+      <link>http://asktao.github.io/tags/mysql/</link>
       <pubDate>Thu, 07 Oct 2021 14:56:04 +0800</pubDate>
       
-      <guid>http://asktao.me/tags/mysql/</guid>
+      <guid>http://asktao.github.io/tags/mysql/</guid>
       <description></description>
     </item>
     

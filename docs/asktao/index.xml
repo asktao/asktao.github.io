@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Asktao on asktao</title>
-    <link>http://asktao.me/asktao/</link>
+    <link>http://asktao.github.io/asktao/</link>
     <description>Recent content in Asktao on asktao</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="http://asktao.me/asktao/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="http://asktao.github.io/asktao/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MySQL on asktao</title>
-    <link>http://asktao.me/tags/mysql/</link>
+    <link>http://asktao.github.io/tags/mysql/</link>
     <description>Recent content in MySQL on asktao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 07 Oct 2021 14:56:04 +0800</lastBuildDate><atom:link href="http://asktao.me/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Oct 2021 14:56:04 +0800</lastBuildDate><atom:link href="http://asktao.github.io/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MySQL 查询表字段</title>
-      <link>http://asktao.me/posts/mysql-%E6%9F%A5%E8%AF%A2%E8%A1%A8%E5%AD%97%E6%AE%B5/</link>
+      <link>http://asktao.github.io/posts/mysql-%E6%9F%A5%E8%AF%A2%E8%A1%A8%E5%AD%97%E6%AE%B5/</link>
       <pubDate>Thu, 07 Oct 2021 14:56:04 +0800</pubDate>
       
-      <guid>http://asktao.me/posts/mysql-%E6%9F%A5%E8%AF%A2%E8%A1%A8%E5%AD%97%E6%AE%B5/</guid>
+      <guid>http://asktao.github.io/posts/mysql-%E6%9F%A5%E8%AF%A2%E8%A1%A8%E5%AD%97%E6%AE%B5/</guid>
       <description>查询数据库中某个字段的使用情况，可以借助 MySQL 的 information_schema
 例：查询 user_name 的字段
 SELECT * FROM `information_schema`.`columns` WHERE `column_name` = &amp;#39;user_name&amp;#39;; 亦支持 like
