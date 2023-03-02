@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>asktao</title>
-    <link>http://asktao.github.io/</link>
+    <link>https://asktao.github.io/</link>
     <description>Recent content on asktao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 09 Oct 2021 10:47:14 +0800</lastBuildDate><atom:link href="http://asktao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Oct 2021 10:47:14 +0800</lastBuildDate><atom:link href="https://asktao.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>得墨忒耳定律</title>
-      <link>http://asktao.github.io/posts/%E5%BE%97%E5%A2%A8%E5%BF%92%E8%80%B3%E5%AE%9A%E5%BE%8B/</link>
+      <link>https://asktao.github.io/posts/%E5%BE%97%E5%A2%A8%E5%BF%92%E8%80%B3%E5%AE%9A%E5%BE%8B/</link>
       <pubDate>Sat, 09 Oct 2021 10:47:14 +0800</pubDate>
       
-      <guid>http://asktao.github.io/posts/%E5%BE%97%E5%A2%A8%E5%BF%92%E8%80%B3%E5%AE%9A%E5%BE%8B/</guid>
+      <guid>https://asktao.github.io/posts/%E5%BE%97%E5%A2%A8%E5%BF%92%E8%80%B3%E5%AE%9A%E5%BE%8B/</guid>
       <description>得墨忒耳定律（Law of Demeter，缩写LoD） 亦被称作“最少知识原则（Principle of Least Knowledge）”，是一种软件开发的设计指导原则，特别是面向对象的程序设计。得墨忒耳定律是松耦合的一种具体案例。该原则是美国东北大学在1987年末在发明的，可以简单地以下面任一种方式总结:
  每个单元对于其他的单元只能拥有有限的知识：只是与当前单元紧密联系的单元； 每个单元只能和它的朋友交谈：不能和陌生单元交谈； 只和自己直接的朋友交谈。 这个原理的名称来源于希腊神话中的农业女神，孤独的得墨忒耳。 很多面向对象程序设计语言用&amp;quot;.&amp;ldquo;表示对象的域的解析算符，因此得墨忒耳定律可以简单地陈述为“只使用一个.算符”。因此，a.b.Method()违反了此定律，而a.Method()不违反此定律。一个简单例子是，人可以命令一条狗行走（walk），但是不应该直接指挥狗的腿行走，应该由狗去指挥控制它的腿如何行。  优点 得墨忒耳定律使得软件更好的可维护性与适应性。因为对象较少依赖其它对象的内部结构，可以改变对象容器（container）而不用改变它的调用者（caller）。</description>
     </item>
     
     <item>
       <title>欧阳询八诀书法理论</title>
-      <link>http://asktao.github.io/posts/%E6%AC%A7%E9%98%B3%E8%AF%A2%E5%85%AB%E8%AF%80%E4%B9%A6%E6%B3%95%E7%90%86%E8%AE%BA/</link>
+      <link>https://asktao.github.io/posts/%E6%AC%A7%E9%98%B3%E8%AF%A2%E5%85%AB%E8%AF%80%E4%B9%A6%E6%B3%95%E7%90%86%E8%AE%BA/</link>
       <pubDate>Sat, 09 Oct 2021 10:46:29 +0800</pubDate>
       
-      <guid>http://asktao.github.io/posts/%E6%AC%A7%E9%98%B3%E8%AF%A2%E5%85%AB%E8%AF%80%E4%B9%A6%E6%B3%95%E7%90%86%E8%AE%BA/</guid>
+      <guid>https://asktao.github.io/posts/%E6%AC%A7%E9%98%B3%E8%AF%A2%E5%85%AB%E8%AF%80%E4%B9%A6%E6%B3%95%E7%90%86%E8%AE%BA/</guid>
       <description>“欧阳询八诀”书法理论，具有独到见解。对明代人李淳的八十四法，清代人黄自元结构92法的著述，均有启示。其“八决”为：
 （点）如高峰坠石；
 （横戈）如长空之新月；
@@ -36,19 +36,19 @@
     
     <item>
       <title>Python List 的两种排序</title>
-      <link>http://asktao.github.io/posts/python-list-%E7%9A%84%E4%B8%A4%E7%A7%8D%E6%8E%92%E5%BA%8F/</link>
+      <link>https://asktao.github.io/posts/python-list-%E7%9A%84%E4%B8%A4%E7%A7%8D%E6%8E%92%E5%BA%8F/</link>
       <pubDate>Sat, 09 Oct 2021 10:44:00 +0800</pubDate>
       
-      <guid>http://asktao.github.io/posts/python-list-%E7%9A%84%E4%B8%A4%E7%A7%8D%E6%8E%92%E5%BA%8F/</guid>
+      <guid>https://asktao.github.io/posts/python-list-%E7%9A%84%E4%B8%A4%E7%A7%8D%E6%8E%92%E5%BA%8F/</guid>
       <description># import a groupby() method # from itertools module from itertools import groupby # dictionary INFO = [ {&amp;#39;employee&amp;#39;: &amp;#39;XYZ_1&amp;#39;, &amp;#39;company&amp;#39;: &amp;#39;ABC_1&amp;#39;}, {&amp;#39;employee&amp;#39;: &amp;#39;XYZ_2&amp;#39;, &amp;#39;company&amp;#39;: &amp;#39;ABC_2&amp;#39;}, {&amp;#39;employee&amp;#39;: &amp;#39;XYZ_3&amp;#39;, &amp;#39;company&amp;#39;: &amp;#39;ABC_3&amp;#39;}, {&amp;#39;employee&amp;#39;: &amp;#39;XYZ_4&amp;#39;, &amp;#39;company&amp;#39;: &amp;#39;ABC_3&amp;#39;}, {&amp;#39;employee&amp;#39;: &amp;#39;XYZ_5&amp;#39;, &amp;#39;company&amp;#39;: &amp;#39;ABC_2&amp;#39;}, {&amp;#39;employee&amp;#39;: &amp;#39;XYZ_6&amp;#39;, &amp;#39;company&amp;#39;: &amp;#39;ABC_3&amp;#39;}, {&amp;#39;employee&amp;#39;: &amp;#39;XYZ_7&amp;#39;, &amp;#39;company&amp;#39;: &amp;#39;ABC_1&amp;#39;}, {&amp;#39;employee&amp;#39;: &amp;#39;XYZ_8&amp;#39;, &amp;#39;company&amp;#39;: &amp;#39;ABC_2&amp;#39;}, {&amp;#39;employee&amp;#39;: &amp;#39;XYZ_9&amp;#39;, &amp;#39;company&amp;#39;: &amp;#39;ABC_1&amp;#39;} ] # define a fuction for key def key_func(k): return k[&amp;#39;company&amp;#39;] # sort INFO data by &amp;#39;company&amp;#39; key.</description>
     </item>
     
     <item>
       <title>芝麻与蝉</title>
-      <link>http://asktao.github.io/posts/%E8%8A%9D%E9%BA%BB%E4%B8%8E%E8%9D%89/</link>
+      <link>https://asktao.github.io/posts/%E8%8A%9D%E9%BA%BB%E4%B8%8E%E8%9D%89/</link>
       <pubDate>Sat, 09 Oct 2021 10:42:47 +0800</pubDate>
       
-      <guid>http://asktao.github.io/posts/%E8%8A%9D%E9%BA%BB%E4%B8%8E%E8%9D%89/</guid>
+      <guid>https://asktao.github.io/posts/%E8%8A%9D%E9%BA%BB%E4%B8%8E%E8%9D%89/</guid>
       <description>Cicadas and sesame seed 全世界芝麻供应商的三大国其中两个国家都有很大数量的蝉。
 缅甸的蝉灾每 13 年出现一次，而巴西的蝉灾每 17 年出现一次。
 明年他们则会同时孵化 221 年才会出现的现象，这两国的农作物会被大幅度毁坏。 不像缅甸和巴西，印尼则没有蝉灾。
@@ -60,10 +60,10 @@
     
     <item>
       <title>博物馆</title>
-      <link>http://asktao.github.io/posts/%E5%8D%9A%E7%89%A9%E9%A6%86/</link>
+      <link>https://asktao.github.io/posts/%E5%8D%9A%E7%89%A9%E9%A6%86/</link>
       <pubDate>Sat, 09 Oct 2021 10:41:49 +0800</pubDate>
       
-      <guid>http://asktao.github.io/posts/%E5%8D%9A%E7%89%A9%E9%A6%86/</guid>
+      <guid>https://asktao.github.io/posts/%E5%8D%9A%E7%89%A9%E9%A6%86/</guid>
       <description>维基艺术
 Art Institvte Chicago
 New York Public Library
@@ -90,10 +90,10 @@ The Morgan Library Museum
     
     <item>
       <title>Python3 中的四舍五入</title>
-      <link>http://asktao.github.io/posts/python3-%E4%B8%AD%E7%9A%84%E5%9B%9B%E8%88%8D%E4%BA%94%E5%85%A5/</link>
+      <link>https://asktao.github.io/posts/python3-%E4%B8%AD%E7%9A%84%E5%9B%9B%E8%88%8D%E4%BA%94%E5%85%A5/</link>
       <pubDate>Sat, 09 Oct 2021 10:41:06 +0800</pubDate>
       
-      <guid>http://asktao.github.io/posts/python3-%E4%B8%AD%E7%9A%84%E5%9B%9B%E8%88%8D%E4%BA%94%E5%85%A5/</guid>
+      <guid>https://asktao.github.io/posts/python3-%E4%B8%AD%E7%9A%84%E5%9B%9B%E8%88%8D%E4%BA%94%E5%85%A5/</guid>
       <description>最近在项目中遇到前后端计算数值不一样的情况，发现是由于 Python3 数学运算处理方式和 PHP BC Math 不一样
 PHP 的 round 函数
 round ( float $val , int $precision = 0 , int $mode = PHP_ROUND_HALF_UP ) : float    Constants Description     PHP_ROUND_HALF_UP Rounds num away from zero when it is half way there, making 1.5 into 2 and -1.5 into -2.   PHP_ROUND_HALF_DOWN Rounds num towards zero when it is half way there,making 1.</description>
@@ -101,10 +101,10 @@ round ( float $val , int $precision = 0 , int $mode = PHP_ROUND_HALF_UP ) : floa
     
     <item>
       <title>算法比较</title>
-      <link>http://asktao.github.io/posts/%E7%AE%97%E6%B3%95%E6%AF%94%E8%BE%83/</link>
+      <link>https://asktao.github.io/posts/%E7%AE%97%E6%B3%95%E6%AF%94%E8%BE%83/</link>
       <pubDate>Sat, 09 Oct 2021 10:40:16 +0800</pubDate>
       
-      <guid>http://asktao.github.io/posts/%E7%AE%97%E6%B3%95%E6%AF%94%E8%BE%83/</guid>
+      <guid>https://asktao.github.io/posts/%E7%AE%97%E6%B3%95%E6%AF%94%E8%BE%83/</guid>
       <description>计算 1+2+3+……+100 结果的程序
 int i, sum = 0, n = 100; for (i = 1; i &amp;lt;= n; i++) { sum = sum + i; } printf(&amp;#34;%d&amp;#34;, sum); 高斯
 int sum = 0, n = 100; sum = (1 + n) * n/2; printf(&amp;#34;%d&amp;#34;, sum); </description>
@@ -112,10 +112,10 @@ int sum = 0, n = 100; sum = (1 + n) * n/2; printf(&amp;#34;%d&amp;#34;, sum); </
     
     <item>
       <title>Go vs PHP Syntax Comparison</title>
-      <link>http://asktao.github.io/posts/go-vs-php-syntax-comparison/</link>
+      <link>https://asktao.github.io/posts/go-vs-php-syntax-comparison/</link>
       <pubDate>Sat, 09 Oct 2021 10:35:50 +0800</pubDate>
       
-      <guid>http://asktao.github.io/posts/go-vs-php-syntax-comparison/</guid>
+      <guid>https://asktao.github.io/posts/go-vs-php-syntax-comparison/</guid>
       <description>Data types PHP types:
 bool string int //Integer float array object NULL resource Go types:
 string bool int int8 int16 int32 int64 uint uint8 uint16 uint32 uint64 uintptr byte //uint8 rune //int32 float32 float64 complex64 complex128 array slices map struct Variables Variable declarations
@@ -124,20 +124,20 @@ string bool int int8 int16 int32 int64 uint uint8 uint16 uint32 uint64 uintptr b
     
     <item>
       <title>Enable or Disable the Status Bar in the Brower</title>
-      <link>http://asktao.github.io/posts/enable-or-disable-the-status-bar-in-the-brower/</link>
+      <link>https://asktao.github.io/posts/enable-or-disable-the-status-bar-in-the-brower/</link>
       <pubDate>Sat, 09 Oct 2021 10:35:22 +0800</pubDate>
       
-      <guid>http://asktao.github.io/posts/enable-or-disable-the-status-bar-in-the-brower/</guid>
+      <guid>https://asktao.github.io/posts/enable-or-disable-the-status-bar-in-the-brower/</guid>
       <description>Command + /
 Control + / on Windows.</description>
     </item>
     
     <item>
       <title>一个故事</title>
-      <link>http://asktao.github.io/posts/%E4%B8%80%E4%B8%AA%E6%95%85%E4%BA%8B/</link>
+      <link>https://asktao.github.io/posts/%E4%B8%80%E4%B8%AA%E6%95%85%E4%BA%8B/</link>
       <pubDate>Sat, 09 Oct 2021 10:33:24 +0800</pubDate>
       
-      <guid>http://asktao.github.io/posts/%E4%B8%80%E4%B8%AA%E6%95%85%E4%BA%8B/</guid>
+      <guid>https://asktao.github.io/posts/%E4%B8%80%E4%B8%AA%E6%95%85%E4%BA%8B/</guid>
       <description>一个员外请了个掌柜，这掌柜的很会理财，帮员外赚了很多钱，所以很受员外的宠信和尊重。可是这掌柜的脾气也越来越大，饮食住宿特别挑剔，稍不如意就发脾气。 有一回，他睡不着觉，总说被褥不舒服，有东西硌着，把伙计和员外都吵起来了，可被窝里什么都没有啊，大家伙儿打着灯笼仔细找了半天，才在被窝里找了三根头发，老掌柜的这才睡得踏实。员外很生气，嫌老掌柜的太矫情，不久就找个借口把他辞了。 可是换了个掌柜却没原来那个掌柜的会赚钱，员外无奈，就去乡下，到那老掌柜的老家去找他。员外到了乡下，发现村头树下放着个陶罐，里边盛着半罐粗劣的食物。旁边还睡着一个老汉，头枕着一块土坷垃，睡得特别香。
 员外仔细一看，才认出这老汉就是老掌柜的，员外把他唤醒，恳请他跟自己回去，两个人就和好如初了，后来员外喝多了酒，跟这老掌柜的交心，便说起了当初辞退他的原因，问他为何被褥中有三根柔软的头发都睡不着，到了乡下躺在泥土地里，枕着块土坷垃反倒睡得香。
 那老掌柜说：“在城里的时候，每日打理生意，清算帐目，我是殚精竭虑啊，所以深思焦虑，脾胃不好，饮食稍差一些就没有食欲，睡的稍不舒服就无法入眠，可我到了乡下，什么都不用想、什么都不用操心，自然吃得香、睡得着。”</description>
@@ -145,10 +145,10 @@ Control + / on Windows.</description>
     
     <item>
       <title>张飞打哑谜</title>
-      <link>http://asktao.github.io/posts/%E5%BC%A0%E9%A3%9E%E6%89%93%E5%93%91%E8%B0%9C/</link>
+      <link>https://asktao.github.io/posts/%E5%BC%A0%E9%A3%9E%E6%89%93%E5%93%91%E8%B0%9C/</link>
       <pubDate>Sat, 09 Oct 2021 10:32:44 +0800</pubDate>
       
-      <guid>http://asktao.github.io/posts/%E5%BC%A0%E9%A3%9E%E6%89%93%E5%93%91%E8%B0%9C/</guid>
+      <guid>https://asktao.github.io/posts/%E5%BC%A0%E9%A3%9E%E6%89%93%E5%93%91%E8%B0%9C/</guid>
       <description>话说刘备三顾茅庐，要请诸葛亮出山，诸葛亮便说：“我出一个哑对，你们对得上，我便拜你为主公。”诸葛亮伸出一指，刘备关羽不解其意，唯有张飞恍大悟，伸出三指相对。诸葛亮又击掌三次，张飞便击掌就此；诸葛亮在胸口花了一个圈；张飞便拍了下脑袋，诸葛亮见状只好认输，跟刘备下了山，从此成为他的军师。
 刘备对二人这番哑谜一直猜不透，找了个机会便问诸葛亮：“军师那日所出哑谜究系何意？”诸葛亮说：“我伸一根手指，代表一统天下，他伸三根，代表三国鼎立；我拍三下掌，代表三三归汉，他拍就下代表九九归原；我在胸口画个圈，代表胸怀锦绣，他拍一下脑袋，就是代表头顶乾坤，所以。。。亮只好认输。”刘备听了赞叹不已，道：“不想三地竟有这般内秀。”
 改日想起此事，又去问张飞，张飞说：“军师大概知道我以前是杀猪的，所以尽跟俺提些杀猪的问题。开始他伸一指，是说你作屠户时一天杀一口猪吗？我说怎么的也得杀三口，他又问那猪有三十斤吧？我说不对，三十斤那是猪崽，大猪少说也得是九十斤，他又问，这猪的心啊肠子啊等下货是不是一块卖呀？我拍一下脑袋，告诉他，只要你有钱，我连着猪头也一块卖给你。”</description>
@@ -156,10 +156,10 @@ Control + / on Windows.</description>
     
     <item>
       <title>有轨电车难题</title>
-      <link>http://asktao.github.io/posts/trolley-problem/</link>
+      <link>https://asktao.github.io/posts/trolley-problem/</link>
       <pubDate>Sat, 09 Oct 2021 10:31:55 +0800</pubDate>
       
-      <guid>http://asktao.github.io/posts/trolley-problem/</guid>
+      <guid>https://asktao.github.io/posts/trolley-problem/</guid>
       <description>有轨电车难题（英语：Trolley problem），称为电车问题，是一个伦理学的思想实验。英国哲学家菲力帕·芙特，在 1967 年首次提出这个问题。在 1996 年，朱迪斯·贾维斯·汤姆逊、彼得·昂格尔、Frances Kamm 等人重新提出这个问题，使这个问题为人熟知。在哲学与伦理学的领域外，心理学、认知科学与神经伦理学对于这个问题也很感兴趣。 其大致内容：假设你看到一辆刹车坏了的有轨电车，即将撞上前方轨道上的五个人，而旁边的备用轨道上只有一个人，如果你什么都不做，五个人会被撞死。你手边有一个按钮，按下按钮，车会驶入备用轨道，只撞死一个人。你是否应该牺牲这一个人的生命而拯救另外五个人？大部分人的回答是“是”。此道德两难涉及人对群体利益和个体利益之间的取舍。此难题可以变化，如一条岔道有一人，另外一条可以改成更多人或更少人，人数对利益取舍的关系。这个思想实验主要想探讨功利主义与源自康德主义的道德义务论见解。 任何的假设题目，都必须有前题假设，作出此决定前，可以假设你完全不认识这即将面对死亡的 6 人，不知道性别、年龄、职业、财富，亦不了解其可能对社会地位和贡献。
 历史    1967 年，菲力帕·芙特发表的《堕胎问题和教条双重影响》中，首次提到了“电车难题”。这个思想实验，可以追溯到伯纳德·威廉姆斯提出的枪决原住民问题：假设一个植物学家，有天到一个独裁国家中游玩。当地独裁者逮捕了 20 名无辜的印地安人，以涉嫌叛乱，全部判处死刑。但是这个独裁者提出一个建议，身为客人，如果这个植物学家亲手枪决其中一个印地安人，其他 19 个人就可以因此被释放。这个植物学家是否应该亲自枪决一位，以拯救其余 19 人，还是拒绝动手，坐视这 20 个人都被枪决？
 原始版本    假设一个法官或裁判官，面对暴徒的威胁，要求将某个人视为一宗罪行的罪魁祸首，判他有罪，暴徒威胁，若不这么做，他们将会对这个社区的某个区域，进行自己的血腥复仇。这个人是否应该为此负责还不晓得，但是这个法官发现，要避免流血，唯一的方法，就是捏造证据，让这个人被判死刑。 在这个例子之外，我们还可以举出另一个例子，一个飞机驾驶，发现飞机即将要坠机，他必须决定，要不要躲开一个比较多人居住的区域，让飞机撞进一个比较少人居住的地方。 类似的相近例子还有，假设一个电车驾驶，他面对两个轨道，只能决定走其中之一；有五个人在其中一条轨道上工作，在另一条轨道上只有一个；电车进入的轨道上，如果有任何人，都会注定被杀。在前述暴乱的例子中，暴徒有五个人质，所以，在这两个例子中，都是一个人的生命，跟五个人的生命之间的交换。
@@ -169,10 +169,10 @@ Control + / on Windows.</description>
     
     <item>
       <title>软件应该具备的能力</title>
-      <link>http://asktao.github.io/posts/%E8%BD%AF%E4%BB%B6%E5%BA%94%E8%AF%A5%E5%85%B7%E5%A4%87%E7%9A%84%E8%83%BD%E5%8A%9B/</link>
+      <link>https://asktao.github.io/posts/%E8%BD%AF%E4%BB%B6%E5%BA%94%E8%AF%A5%E5%85%B7%E5%A4%87%E7%9A%84%E8%83%BD%E5%8A%9B/</link>
       <pubDate>Sat, 09 Oct 2021 10:30:49 +0800</pubDate>
       
-      <guid>http://asktao.github.io/posts/%E8%BD%AF%E4%BB%B6%E5%BA%94%E8%AF%A5%E5%85%B7%E5%A4%87%E7%9A%84%E8%83%BD%E5%8A%9B/</guid>
+      <guid>https://asktao.github.io/posts/%E8%BD%AF%E4%BB%B6%E5%BA%94%E8%AF%A5%E5%85%B7%E5%A4%87%E7%9A%84%E8%83%BD%E5%8A%9B/</guid>
       <description>安全 一个软件无论是服务端、客户端又或传输过程中安全无法保障无异于把客户、用户的信息泄露，服务端更甚于泄露所有客户、用户的所有信息。
 稳定 没有客户、用户接受使用经常宕机的服务。
 速度快 客户、用户不会花更长时间等待软件的响应，更有电商对此印证</description>
@@ -180,10 +180,10 @@ Control + / on Windows.</description>
     
     <item>
       <title>万事开头难，搞定为大!</title>
-      <link>http://asktao.github.io/posts/%E4%B8%87%E4%BA%8B%E5%BC%80%E5%A4%B4%E9%9A%BE%E6%90%9E%E5%AE%9A%E4%B8%BA%E5%A4%A7/</link>
+      <link>https://asktao.github.io/posts/%E4%B8%87%E4%BA%8B%E5%BC%80%E5%A4%B4%E9%9A%BE%E6%90%9E%E5%AE%9A%E4%B8%BA%E5%A4%A7/</link>
       <pubDate>Sat, 09 Oct 2021 10:29:12 +0800</pubDate>
       
-      <guid>http://asktao.github.io/posts/%E4%B8%87%E4%BA%8B%E5%BC%80%E5%A4%B4%E9%9A%BE%E6%90%9E%E5%AE%9A%E4%B8%BA%E5%A4%A7/</guid>
+      <guid>https://asktao.github.io/posts/%E4%B8%87%E4%BA%8B%E5%BC%80%E5%A4%B4%E9%9A%BE%E6%90%9E%E5%AE%9A%E4%B8%BA%E5%A4%A7/</guid>
       <description>第一期播客可能很糟糕
 第一段视频可能很糟糕
 第一篇文章可能很糟糕
@@ -205,19 +205,19 @@ via:We’re Not Wizards Tabletop Podcast</description>
     
     <item>
       <title>有趣的数学公式</title>
-      <link>http://asktao.github.io/posts/%E6%9C%89%E8%B6%A3%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</link>
+      <link>https://asktao.github.io/posts/%E6%9C%89%E8%B6%A3%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</link>
       <pubDate>Sat, 09 Oct 2021 10:24:09 +0800</pubDate>
       
-      <guid>http://asktao.github.io/posts/%E6%9C%89%E8%B6%A3%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</guid>
+      <guid>https://asktao.github.io/posts/%E6%9C%89%E8%B6%A3%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</guid>
       <description>1 * 8 + 1 = 9 12 * 8 + 2 = 98 123 * 8 + 3 = 987 1234 * 8 + 4 = 9876 12345 * 8 + 5 = 98765 123456 * 8 + 6 = 987654 1234567 * 8 + 7 = 9876543 12345678 * 8 + 8 = 98765432 123456789 * 8 + 9 = 987654321 </description>
     </item>
     
     <item>
       <title>Grep</title>
-      <link>http://asktao.github.io/posts/grep/</link>
+      <link>https://asktao.github.io/posts/grep/</link>
       <pubDate>Sat, 09 Oct 2021 10:21:22 +0800</pubDate>
       
-      <guid>http://asktao.github.io/posts/grep/</guid>
+      <guid>https://asktao.github.io/posts/grep/</guid>
       <description>grep -v 排除多个 patterns 用 | 分割且需转义
 查看 vim 配置
 cat .vimrc | grep -v &amp;#39;&amp;#34;\|^$&amp;#39; </description>
@@ -225,10 +225,10 @@ cat .vimrc | grep -v &amp;#39;&amp;#34;\|^$&amp;#39; </description>
     
     <item>
       <title>对联</title>
-      <link>http://asktao.github.io/posts/%E5%AF%B9%E8%81%94/</link>
+      <link>https://asktao.github.io/posts/%E5%AF%B9%E8%81%94/</link>
       <pubDate>Sat, 09 Oct 2021 10:20:37 +0800</pubDate>
       
-      <guid>http://asktao.github.io/posts/%E5%AF%B9%E8%81%94/</guid>
+      <guid>https://asktao.github.io/posts/%E5%AF%B9%E8%81%94/</guid>
       <description>寄寓客家牢守寒窗空寂寞
 烟锁池塘柳
 今世进士尽是近视
@@ -237,20 +237,20 @@ cat .vimrc | grep -v &amp;#39;&amp;#34;\|^$&amp;#39; </description>
     
     <item>
       <title>Laravel 使用联合主键</title>
-      <link>http://asktao.github.io/posts/laravel-%E4%BD%BF%E7%94%A8%E8%81%94%E5%90%88%E4%B8%BB%E9%94%AE/</link>
+      <link>https://asktao.github.io/posts/laravel-%E4%BD%BF%E7%94%A8%E8%81%94%E5%90%88%E4%B8%BB%E9%94%AE/</link>
       <pubDate>Sat, 09 Oct 2021 10:19:02 +0800</pubDate>
       
-      <guid>http://asktao.github.io/posts/laravel-%E4%BD%BF%E7%94%A8%E8%81%94%E5%90%88%E4%B8%BB%E9%94%AE/</guid>
+      <guid>https://asktao.github.io/posts/laravel-%E4%BD%BF%E7%94%A8%E8%81%94%E5%90%88%E4%B8%BB%E9%94%AE/</guid>
       <description>在 Model 中表示方式
 protected $primaryKey = [&amp;#39;key_one&amp;#39;, &amp;#39;key_two&amp;#39;]; public $incrementing = false; </description>
     </item>
     
     <item>
       <title>获取外部 IP 地址命令</title>
-      <link>http://asktao.github.io/posts/%E8%8E%B7%E5%8F%96%E5%A4%96%E9%83%A8-ip-%E5%9C%B0%E5%9D%80%E5%91%BD%E4%BB%A4/</link>
+      <link>https://asktao.github.io/posts/%E8%8E%B7%E5%8F%96%E5%A4%96%E9%83%A8-ip-%E5%9C%B0%E5%9D%80%E5%91%BD%E4%BB%A4/</link>
       <pubDate>Sat, 09 Oct 2021 10:18:12 +0800</pubDate>
       
-      <guid>http://asktao.github.io/posts/%E8%8E%B7%E5%8F%96%E5%A4%96%E9%83%A8-ip-%E5%9C%B0%E5%9D%80%E5%91%BD%E4%BB%A4/</guid>
+      <guid>https://asktao.github.io/posts/%E8%8E%B7%E5%8F%96%E5%A4%96%E9%83%A8-ip-%E5%9C%B0%E5%9D%80%E5%91%BD%E4%BB%A4/</guid>
       <description>#macOS
 获取外部 IP 地址命令
 curl ifconfig.me 绕过 history （macOS High Sierra, macOS Mojave 无效）
@@ -259,19 +259,19 @@ curl ifconfig.me 绕过 history （macOS High Sierra, macOS Mojave 无效）
     
     <item>
       <title>PHP 不用函数翻转字符串</title>
-      <link>http://asktao.github.io/posts/php-%E4%B8%8D%E7%94%A8%E5%87%BD%E6%95%B0%E7%BF%BB%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2/</link>
+      <link>https://asktao.github.io/posts/php-%E4%B8%8D%E7%94%A8%E5%87%BD%E6%95%B0%E7%BF%BB%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2/</link>
       <pubDate>Sat, 09 Oct 2021 10:17:27 +0800</pubDate>
       
-      <guid>http://asktao.github.io/posts/php-%E4%B8%8D%E7%94%A8%E5%87%BD%E6%95%B0%E7%BF%BB%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2/</guid>
+      <guid>https://asktao.github.io/posts/php-%E4%B8%8D%E7%94%A8%E5%87%BD%E6%95%B0%E7%BF%BB%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2/</guid>
       <description>$str = &amp;#39;hello&amp;#39;; $newstr = &amp;#39;&amp;#39;; $i = 0; while (!empty($str[$i])) { $newstr = $str[$i].$newstr; $i++; } echo $newstr; </description>
     </item>
     
     <item>
       <title>macOs 技巧</title>
-      <link>http://asktao.github.io/posts/macos-%E6%8A%80%E5%B7%A7/</link>
+      <link>https://asktao.github.io/posts/macos-%E6%8A%80%E5%B7%A7/</link>
       <pubDate>Sat, 09 Oct 2021 10:13:35 +0800</pubDate>
       
-      <guid>http://asktao.github.io/posts/macos-%E6%8A%80%E5%B7%A7/</guid>
+      <guid>https://asktao.github.io/posts/macos-%E6%8A%80%E5%B7%A7/</guid>
       <description>显示，隐藏 隐藏文件
 shift + command + . 查看 brew 启动服务 brew services list 可以根据
 brew services 提供的命令修改
@@ -282,10 +282,10 @@ defaults write com.apple.screencapture type jpg </description>
     
     <item>
       <title>How to Avoid Floating Point Math Error in PHP and Python</title>
-      <link>http://asktao.github.io/posts/how-to-avoid-floating-point-math-error-in-php-and-python/</link>
+      <link>https://asktao.github.io/posts/how-to-avoid-floating-point-math-error-in-php-and-python/</link>
       <pubDate>Thu, 07 Oct 2021 15:28:09 +0800</pubDate>
       
-      <guid>http://asktao.github.io/posts/how-to-avoid-floating-point-math-error-in-php-and-python/</guid>
+      <guid>https://asktao.github.io/posts/how-to-avoid-floating-point-math-error-in-php-and-python/</guid>
       <description>php -r &amp;#34;var_dump(intval(0.58 * 100));” int(57) python3 &amp;gt;&amp;gt;&amp;gt;print(0.58*100)57.99999999999999 other languages http://0.30000000000000004.com
 how did this happen http://www.laruence.com/2013/03/26/2884.html
 Mathematical extensions in php and decimal module in python to avoid this
@@ -294,10 +294,10 @@ php -r &amp;#34;var_dump(intval(bcmul(&amp;#39;0.58&amp;#39;, &amp;#39;100&amp;#
     
     <item>
       <title>MySQL 查询表字段</title>
-      <link>http://asktao.github.io/posts/mysql-%E6%9F%A5%E8%AF%A2%E8%A1%A8%E5%AD%97%E6%AE%B5/</link>
+      <link>https://asktao.github.io/posts/mysql-%E6%9F%A5%E8%AF%A2%E8%A1%A8%E5%AD%97%E6%AE%B5/</link>
       <pubDate>Thu, 07 Oct 2021 14:56:04 +0800</pubDate>
       
-      <guid>http://asktao.github.io/posts/mysql-%E6%9F%A5%E8%AF%A2%E8%A1%A8%E5%AD%97%E6%AE%B5/</guid>
+      <guid>https://asktao.github.io/posts/mysql-%E6%9F%A5%E8%AF%A2%E8%A1%A8%E5%AD%97%E6%AE%B5/</guid>
       <description>查询数据库中某个字段的使用情况，可以借助 MySQL 的 information_schema
 例：查询 user_name 的字段
 SELECT * FROM `information_schema`.`columns` WHERE `column_name` = &amp;#39;user_name&amp;#39;; 亦支持 like
@@ -306,10 +306,10 @@ SELECT * FROM `information_schema`.`columns` WHERE `column_name` LIKE &amp;#39;%
     
     <item>
       <title>CodeRunner Go</title>
-      <link>http://asktao.github.io/posts/coderunner-go/</link>
+      <link>https://asktao.github.io/posts/coderunner-go/</link>
       <pubDate>Mon, 30 Mar 2020 22:30:09 +0800</pubDate>
       
-      <guid>http://asktao.github.io/posts/coderunner-go/</guid>
+      <guid>https://asktao.github.io/posts/coderunner-go/</guid>
       <description> Go to the settings panel (preferences) of CodeRunner Choose the Languages panel and search “Go” on the “Go” item, uncheck “Language uses compile script” replace the existing “Run command” by  go run $filename  </description>
     </item>
     

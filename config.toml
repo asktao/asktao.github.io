@@ -1,4 +1,4 @@
-baseurl = "http://asktao.github.io"
+baseurl = "https://asktao.github.io"
 title = "asktao"
 theme = "hugo-coder"
 languagecode = "en"
