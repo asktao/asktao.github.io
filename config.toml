@@ -9,6 +9,7 @@ paginate = 10
 pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
+publishDir = "docs"
 
 #disqusShortname = "asktao"
 
