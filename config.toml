@@ -1,6 +1,6 @@
 baseurl = "https://asktao.github.io"
 title = "asktao"
-theme = "hugo-coder"
+theme = "beautifulhugo"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
@@ -42,12 +42,12 @@ publishDir = "docs"
   author = "asktao"
 
 # Social links
-[[params.social]]
-  name = "Github"
-  icon = "fa fa-github fa-2x"
-  weight = 1
-  url = "https://github.com/asktao/"
 ##[[params.social]]
+##  name = "Github"
+##  icon = "fa fa-github fa-2x"
+##  weight = 1
+##  url = "https://github.com/asktao/"
+####[[params.social]]
 ##  name = "Gitlab"
 ##  icon = "fa fa-gitlab fa-2x"
 ##  weight = 2
@@ -57,13 +57,43 @@ publishDir = "docs"
 ##  icon = "fa fa-twitter fa-2x"
 ##  weight = 3
 ##  url = "https://twitter.com/johndoe/"
-##
+####
 ## Menu links
 [[menu.main]]
   name = "Blog"
   weight = 1
   url  = "posts/"
 [[menu.main]]
-  name = "About"
+  identifier = "Projects"
+  name = "Projects"
+  url = "#"
   weight = 2
+  [[menu.main]]
+    identifier = "Depreciation"
+    parent = "Projects"
+    name = "Depreciation"
+    url = "https://asktao.me"
+    weight = 1
+  [[menu.main]]
+    identifier = "iStuff"
+    parent = "Projects"
+    name = "iStuff"
+    url = "https://asktao.me"
+    weight = 2
+  [[menu.main]]
+    identifier = "MyBag"
+    parent = "Projects"
+    name = "MyBag"
+    url = "https://asktao.me"
+    weight = 3
+[[menu.main]]
+  name = "Tag"
+  weight = 1
+  url  = "tags/"
+[[menu.main]]
+  name = "About"
+  weight = 3
   url = "https://asktao.me/About-me-7326ca879d364d58abea991d59c8ff13"
+
+[Author]
+    github = "asktao"
